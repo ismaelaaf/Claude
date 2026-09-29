@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campanhas | Sua Clínica</title>
+  <!-- Página interna de atalhos para a equipe: fora do Google. -->
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&family=Fraunces:opsz,wght@9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/lp.css">
+  <style>
+    .indice { padding: 56px 0 96px; max-width: 760px; }
+    .indice h1 { font-size: clamp(32px, 5vw, 44px); }
+    .indice > p { color: var(--ink-2); margin: 10px 0 32px; }
+    .lista-lps { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+    .lista-lps a {
+      display: grid; grid-template-columns: 14px 1fr auto; gap: 16px; align-items: center;
+      padding: 18px 22px; border: 1px solid var(--line); border-radius: var(--radius-sm);
+      background: var(--surface); text-decoration: none; transition: border-color .15s, transform .15s;
+    }
+    .lista-lps a:hover { border-color: var(--c); transform: translateY(-1px); }
+    .lista-lps .ponto { width: 14px; height: 14px; border-radius: 50%; background: var(--c); }
+    .lista-lps strong { display: block; font: 500 20px/1.2 var(--font-display); }
+    .lista-lps small { color: var(--muted); font-size: 14px; }
+    .lista-lps .seta { color: var(--muted); font-size: 22px; }
+  </style>
+</head>
+<body>
+  <main class="container indice">
+    <h1>Campanhas ativas</h1>
+    <p>Atalhos internos para as landing pages. Para divulgar, use o link da LP com UTMs (veja o README).</p>
+    <ul class="lista-lps">
+      <li><a href="lp/limpeza-de-pele/" style="--c:#a14d66"><span class="ponto"></span><span><strong>Limpeza de Pele Profunda</strong><small>lp/limpeza-de-pele/</small></span><span class="seta" aria-hidden="true">→</span></a></li>
+      <li><a href="lp/depilacao-laser/" style="--c:#5b4b9e"><span class="ponto"></span><span><strong>Depilação a Laser</strong><small>lp/depilacao-laser/</small></span><span class="seta" aria-hidden="true">→</span></a></li>
+      <li><a href="lp/harmonizacao-facial/" style="--c:#8a5636"><span class="ponto"></span><span><strong>Avaliação de Harmonização Facial</strong><small>lp/harmonizacao-facial/</small></span><span class="seta" aria-hidden="true">→</span></a></li>
+      <li><a href="lp/drenagem-linfatica/" style="--c:#2e7564"><span class="ponto"></span><span><strong>Drenagem Linfática</strong><small>lp/drenagem-linfatica/</small></span><span class="seta" aria-hidden="true">→</span></a></li>
+      <li><a href="lp/tratamento-manchas/" style="--c:#a94e2b"><span class="ponto"></span><span><strong>Tratamento para Manchas</strong><small>lp/tratamento-manchas/</small></span><span class="seta" aria-hidden="true">→</span></a></li>
+    </ul>
+  </main>
+</body>
+</html>
