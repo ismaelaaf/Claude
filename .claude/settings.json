@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": ["mcp__n8n", "mcp__Google_Drive", "Bash", "Read", "Edit", "Write", "WebFetch"]
+  },
+  "autoMode": {
+    "allow": [
+      "$defaults",
+      "O dono da instância n8n da Drenesse autorizou o Claude a criar, editar, executar, publicar, despublicar e arquivar fluxos do n8n pelo MCP sem pedir confirmação, inclusive fluxos em produção."
+    ]
+  }
+}
